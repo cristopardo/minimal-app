@@ -1,6 +1,6 @@
 """Example: app.py - Lambda-style handler."""
 
-from mini_ds import MyDataFrame
+from examples.example1.mini_ds import MyDataFrame
 
 
 def handler(event: dict, context: object) -> dict:
